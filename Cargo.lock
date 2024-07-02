@@ -1772,6 +1772,7 @@ name = "vn3-pdf-parser"
 version = "0.1.0"
 dependencies = [
  "clap",
+ "ordered-float",
  "pdf",
  "pdf_text",
 ]
