@@ -2,6 +2,9 @@ use std::path::PathBuf;
 
 use clap::Parser;
 
+#[cfg(target_pointer_width = "32")]
+compile_error!("This product and target may be vulnerable to RUSTSEC-2022-0041: please see https://github.com/crossbeam-rs/crossbeam/pull/781");
+
 #[derive(Parser)]
 struct Args {
     path: PathBuf
