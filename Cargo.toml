@@ -5,6 +5,6 @@ edition = "2021"
 
 [dependencies]
 clap = { version = "4.5.8", features = ["derive"] }
-ordered-float = "4.2.1"
+ordered-float = "5.0.0"
 pdf = { git = "https://github.com/pdf-rs/pdf/" }
 pdf_text = { git = "https://github.com/kisaragieffective/pdf_text-stable/", version = "0.1.0", branch = "kisaragi" }
