@@ -1100,6 +1100,15 @@ checksum = "3fdb12b2476b595f9358c5161aa467c2438859caa136dec86c26fdd2efe17b92"
 
 [[package]]
 name = "ordered-float"
+version = "4.2.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "19ff2cf528c6c03d9ed653d6c4ce1dc0582dc4af309790ad92f07c1cd551b0be"
+dependencies = [
+ "num-traits",
+]
+
+[[package]]
+name = "ordered-float"
 version = "5.0.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "e2c1f9f56e534ac6a9b8a4600bdf0f530fb393b5f393e7b4d03489c3cf0c3f01"
@@ -1301,7 +1310,7 @@ dependencies = [
  "font",
  "itertools 0.13.0",
  "log",
- "ordered-float",
+ "ordered-float 4.2.1",
  "pathfinder_color",
  "pathfinder_content",
  "pathfinder_geometry",
@@ -1766,7 +1775,7 @@ name = "vn3-pdf-parser"
 version = "0.1.0"
 dependencies = [
  "clap",
- "ordered-float",
+ "ordered-float 5.0.0",
  "pdf",
  "pdf_text",
 ]
